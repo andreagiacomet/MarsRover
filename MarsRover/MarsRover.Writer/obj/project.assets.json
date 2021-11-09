@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "MarsRover.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MarsRover.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MarsRover.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarsRover.Model/1.0.0": {
+      "type": "project",
+      "path": "../MarsRover.Model/MarsRover.Model.csproj",
+      "msbuildProject": "../MarsRover.Model/MarsRover.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "MarsRover.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mob11\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mob11\\Desktop\\MarsRover\\MarsRover\\MarsRover.Writer\\MarsRover.Writer.csproj",
+      "projectName": "MarsRover.Writer",
+      "projectPath": "C:\\Users\\mob11\\Desktop\\MarsRover\\MarsRover\\MarsRover.Writer\\MarsRover.Writer.csproj",
+      "packagesPath": "C:\\Users\\mob11\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mob11\\Desktop\\MarsRover\\MarsRover\\MarsRover.Writer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mob11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\mob11\\Desktop\\MarsRover\\MarsRover\\MarsRover.Model\\MarsRover.Model.csproj": {
+              "projectPath": "C:\\Users\\mob11\\Desktop\\MarsRover\\MarsRover\\MarsRover.Model\\MarsRover.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
