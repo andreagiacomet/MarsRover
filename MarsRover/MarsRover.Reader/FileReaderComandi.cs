@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
 namespace MarsRover.Reader
 {
-    public class FileReader : IReader
+    public class FileReaderComandi : IReader
     {
-        public IEnumerable<string> Read(string filename) => File.ReadAllText(filename).Split().ToList();
+        public IEnumerable<string> Read(string filename) => File.ReadAllText(filename).Split(",").ToList();
     }
 }

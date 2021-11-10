@@ -1,11 +1,9 @@
-﻿using System;
-
-namespace MarsRover.Model
+﻿namespace MarsRover.Model
 {
     public class MappaMarte
     {
-        public int DimensioneMappa => 10;
-        public bool [,] Mappa => new bool[DimensioneMappa, DimensioneMappa];
+        public int DimensioneMappa { get; set; }
+        //public Status Cella { get; set; }
+        public bool[,] Mappa;
     }
-        
 }

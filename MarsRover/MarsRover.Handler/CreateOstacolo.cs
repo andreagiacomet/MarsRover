@@ -6,18 +6,22 @@ namespace MarsRover.Handler
 {
     public class CreateOstacolo
     {
-        public IList<Ostacolo> CreateOstacoli(MappaMarte mappa,int numOstacoli)
+        public IList<Ostacolo> CreateOstacoli(int dimensioneMappa)
         {
             var lista = new List<Ostacolo>();
-            while (lista.Count < numOstacoli)
+            while (lista.Count < NumOstacoli(dimensioneMappa))
             {
                 Random r = new Random();
-                int r1 = r.Next(0, mappa.DimensioneMappa - 1);
-                int r2 = r.Next(0, mappa.DimensioneMappa - 1);
-                var ostacolo = new Ostacolo() { PosizioneOstacolo = new Posizione() { Longitudine = r1, Latitudine = r2 } };
+                var ostacolo = new Ostacolo()
+                {
+                    PosizioneOstacolo = new Posizione()
+                    { Longitudine = r.Next(0, dimensioneMappa - 1), Latitudine = r.Next(0, dimensioneMappa - 1) }
+                };
                 lista.Add(ostacolo);
             }
             return lista;
         }
+
+        private static int NumOstacoli(int d) => d * d / (d + d);
     }
 }

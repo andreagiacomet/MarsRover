@@ -1,0 +1,15 @@
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\bin\Debug\net5.0\MarsRover.Writer.deps.json
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\bin\Debug\net5.0\MarsRover.Writer.dll
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\bin\Debug\net5.0\ref\MarsRover.Writer.dll
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\bin\Debug\net5.0\MarsRover.Writer.pdb
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\bin\Debug\net5.0\MarsRover.Model.dll
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\bin\Debug\net5.0\MarsRover.Model.pdb
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\MarsRover.Writer.csproj.AssemblyReference.cache
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\MarsRover.Writer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\MarsRover.Writer.AssemblyInfoInputs.cache
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\MarsRover.Writer.AssemblyInfo.cs
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\MarsRover.Writer.csproj.CoreCompileInputs.cache
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\MarsRover.Writer.csproj.CopyComplete
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\MarsRover.Writer.dll
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\ref\MarsRover.Writer.dll
+C:\Users\mob11\Desktop\MarsRover\MarsRover\MarsRover.Writer\obj\Debug\net5.0\MarsRover.Writer.pdb

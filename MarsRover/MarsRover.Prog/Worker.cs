@@ -1,8 +1,8 @@
+using MarsRover.Handler;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -11,10 +11,14 @@ namespace MarsRover.Prog
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
+        private readonly IConfiguration _configuration;
+        private readonly Manager manager;
 
-        public Worker(ILogger<Worker> logger)
+        public Worker(ILogger<Worker> logger, IConfiguration configuration,Manager manager)
         {
             _logger = logger;
+            _configuration = configuration;
+            this.manager = manager;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -22,7 +26,9 @@ namespace MarsRover.Prog
             while (!stoppingToken.IsCancellationRequested)
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-                await Task.Delay(1000, stoppingToken);
+                manager.Setup(Convert.ToInt32(_configuration["MapDimension"]));
+                manager.Execute(_configuration["FileComandi"]);
+                await Task.Delay(30000, stoppingToken);
             }
         }
     }

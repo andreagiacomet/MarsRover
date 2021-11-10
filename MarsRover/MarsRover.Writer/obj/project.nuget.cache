@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5pNDcgMX39SXPw/qDmuR0w2B1RyhLNcQg6GvHdWpIMgFDS0wTcWnvx5Ra0j9clby3V4va2tYZ5Rh4wLbdwG8Fg==",
+  "dgSpecHash": "+MAHdBEDJ4cgvxEJCuAEPL0Q76Vnd9L/cwOpXziayoxJaG+qEFwfVVY0pnmfu8t40Wp23YZpdOoxSwyJVE+6eQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mob11\\Desktop\\MarsRover\\MarsRover\\MarsRover.Writer\\MarsRover.Writer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mob11\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\mob11\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
+    "C:\\Users\\mob11\\.nuget\\packages\\scrutor\\3.3.0\\scrutor.3.3.0.nupkg.sha512",
+    "C:\\Users\\mob11\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }

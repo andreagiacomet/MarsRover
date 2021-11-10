@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Scrutor" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MarsRover.Model\MarsRover.Model.csproj" />
+    <ProjectReference Include="..\MarsRover.Reader\MarsRover.Reader.csproj" />
+    <ProjectReference Include="..\MarsRover.Writer\MarsRover.Writer.csproj" />
   </ItemGroup>
 
 </Project>
